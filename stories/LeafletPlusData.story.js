@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import { LeafletPlusData } from '../src';
 import { colors } from './shared';
+import { url } from './mapBox';
 
 const displayName = 'LeafletPlusData';
 const title = 'Leaflet with data on and below map';
@@ -40,6 +41,7 @@ const demoCode = () => (
     chartProportions={chartProportions}
     colors={colors}
     legendStyles={legendStyles}
+    url={url || 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'}
   />
 );
 

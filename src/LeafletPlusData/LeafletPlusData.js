@@ -49,6 +49,8 @@ export default class LeafletPlusData extends Component {
   static displayName = 'react-leaflet with info beneath';
   static propTypes = {
     zoom: React.PropTypes.number.isRequired,
+    position: React.PropTypes.number.isRequired,
+    url: React.PropTypes.string.isRequired,
   }
 
   constructor(props) {
@@ -58,7 +60,7 @@ export default class LeafletPlusData extends Component {
       center: this.props.position,
       zoom: this.props.zoom,
       attribute: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+      url: this.props.url,
       color: 'blue',
       neighborhoodFocus: '(click ☝🏽)',
       neighborhoodDemographicData: mockDemographicData,
