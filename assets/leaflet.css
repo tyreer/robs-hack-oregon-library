@@ -1,3 +1,9 @@
+/* global styles specified by Robert for demo */
+
+h3, h2, h1 {
+	font-family: Raleway;
+}
+
 /* required styles */
 
 .leaflet-pane,

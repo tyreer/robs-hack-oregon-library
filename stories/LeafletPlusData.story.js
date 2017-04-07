@@ -25,7 +25,7 @@ const chartProportions = {
 
 // Styles here based on src/Pie/Pie.css
 const legendStyles = {
-  fontFamily: 'filson-soft',
+  fontFamily: 'Raleway',
   fontSize: proportionBase * 0.08,
   fontWeight: 300,
   left: '50%',
@@ -37,10 +37,6 @@ const demoCode = () => (
     position={position}
     zoom={zoom}
     maxzoom={maxzoom}
-    zoomControl={false}
-    dragging={false}
-    scrollWheelZoom={false}
-    doubleClickZoom={false}
     chartProportions={chartProportions}
     colors={colors}
     legendStyles={legendStyles}

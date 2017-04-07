@@ -84,15 +84,13 @@ export default class LeafletPlusData extends Component {
           className={className}
           zoom={this.state.zoom}
           center={this.state.center}
-          zoomControl={false}
-          dragging={false}
           doubleClickZoom={false}
         >
           <TileLayer url={this.state.url} attribution={this.state.attribute} />
           <GeoJSON data={this.state.geoData} onEachFeature={this.handleClick} color={this.state.color} />
         </Map>
-        <h2 style={{ backgroundColor: 'rgb(245,245,245)', margin: '-10px 0', paddingLeft: '37px' }} >{this.state.neighborhoodFocus} Neighborhood Stats</h2>
-        <div style={{ display: 'flex', flexDirection: 'row', backgroundColor: 'rgb(245,245,245)' }}>
+        <h2 style={{ backgroundColor: 'rgb(245,245,245)', margin: '0', paddingTop: '15px', width: '90%', margin: 'auto' }} >  {this.state.neighborhoodFocus} Neighborhood Stats</h2>
+        <div style={{ display: 'flex', flexDirection: 'row', backgroundColor: 'rgb(245,245,245)', width: '90%', margin: 'auto' }}>
           <div style={dataDivStyle}>
             <h3>Race/Ethnicity</h3>
             <RechartsPie
