@@ -1,4 +1,4 @@
-## Robert's rednition of Hack Oregon's React Component Library
+## Robert's rendition of Hack Oregon's React Component Library
 ---
 This repository takes Hack Oregon’s component library and strips out all the components that I did not personally author. The two components here showcase a few of my individual contributions to Hack Oregon’s cross-team component library—a donut chart made with ReCharts and a Leaflet map overlaid with GeoJSON data.
 
