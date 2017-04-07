@@ -73,6 +73,13 @@ export default class LeafletPlusData extends Component {
         neighborhoodFocus: `${feature.properties.NAME}`,
         neighborhoodDemographicData: feature.properties.DEMOGRAPHICDATA,
       });
+      layer.setStyle({
+        weight: 3,
+        fillColor: '#F08080',
+        color: 'white',
+        dashArray: 5,
+        fillOpacity: 0.7,
+      });
     });
   }
 
