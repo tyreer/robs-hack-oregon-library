@@ -7,7 +7,7 @@ const displayName = 'LeafletPlusData';
 const title = 'Leaflet with data on and below map';
 const description = 'react-leaflet map of Portland with GeoJSON neighborhood data on map and derived data beneath map displayed on click';
 
-const position = [45.52, -122.63];
+const position = [45.54, -122.63];
 const zoom = 11;
 const maxzoom = 10;
 
