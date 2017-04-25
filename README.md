@@ -6,6 +6,6 @@ You can find the official Hack Oregon Component Library [here](https://github.co
 
 The 2017 Hack Oregon platform launches May 1st from Portland, Oregon. Find more info about Hack Oregon [here](http://www.hackoregon.org/).
 
-A few of Hack Oregon's previous projects:
-[oregonhungerequation.org](http://www.oregonhungerequation.org/)
+A few of Hack Oregon's previous projects:<br>
+[oregonhungerequation.org](http://www.oregonhungerequation.org/)<br>
 [cropcompass.org](http://www.cropcompass.org/)
